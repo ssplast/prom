@@ -1,0 +1,32 @@
+.my_main{
+        background: url(https://raw.githubusercontent.com/ssplast/prom/master/img/back_11.png);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .my_h{
+        margin: 2rem;
+        font-weight: 700;
+        font-size: 2em;
+        color: #fff;
+    }
+    .my_item{
+        border: 3px solid transparent;
+        border-radius: 0;
+        cursor: pointer;
+        transition: all 1000ms;
+    }
+    .my_item:hover{
+        border: 3px solid rgba(128, 128, 128, 1);
+        border-radius: 50%;
+        background: rgba(128, 128, 128, 0.1);
+        transition: all 200ms;
+    }
+    .my_item > img{
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        cursor: pointer;
+    }
